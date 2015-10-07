@@ -45,6 +45,20 @@ Route::get('l003',array('as'=>'l003',function(){
 
 }));
 
+//l_004
+Route::get('l004',array('as'=>'l004',function(){
+	return View::make('learn.l_004');
+}));
+
+Route::post('l004',array('as'=>'l004',function(){
+	return View::make('learn.l_004');
+}));
+
+//l_005
+Route::get('l005',array('as' =>'l005',function(){
+	return View::make('learn.l_005');
+}));
+
 Route::get('home', 'HomeController@index');
 
 
